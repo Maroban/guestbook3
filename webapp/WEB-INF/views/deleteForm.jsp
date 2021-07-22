@@ -12,7 +12,7 @@
 		<label>비밀번호</label>
 		<input type="password" name="pw" value="">
 		<button type="submit">확인</button>
-		<input type="text" name="no" value="${no}">
+		<input type="hidden" name="no" value="${no}">
 	</form>
 
 	<a href="/guestbook3/addList">메인으로 돌아가기</a>
